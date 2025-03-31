@@ -72,7 +72,7 @@ function DrawFirstFrame(){
   textFont(RegularFont);
   textSize(11);
   textAlign(LEFT);
-  text("G.Koganovskiy 2020", 10, windowHeight - 10);
+  text("aditya js 2025", 10, windowHeight - 10);
   textAlign(RIGHT);
   text("v1.0", windowWidth - 10, windowHeight - 10);
   textAlign(CENTER);
@@ -124,7 +124,7 @@ function Visualize(){
     textFont(RegularFont);
     textSize(11);
     textAlign(LEFT);
-    text("G.Koganovskiy 2020", 10, windowHeight - 10);
+    text("aditya js 2025", 10, windowHeight - 10);
     textAlign(RIGHT);
     text("v1.0", windowWidth - 10, windowHeight - 10);
   }
@@ -156,7 +156,7 @@ function Visualize(){
       textFont(RegularFont);
       textSize(11);
       textAlign(LEFT);
-      text("G.Koganovskiy 2020", 10, windowHeight - 10);
+      text("aditya js 2025", 10, windowHeight - 10);
       textAlign(RIGHT);
       text("v1.0", windowWidth - 10, windowHeight - 10);
     }
