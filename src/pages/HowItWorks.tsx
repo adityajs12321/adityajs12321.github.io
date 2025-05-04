@@ -2,7 +2,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, FileUp, Layers, MousePointer, Settings, Vr } from "lucide-react";
+import { ArrowRight, FileUp, Layers, MousePointer, Settings, VrHeadset } from "lucide-react";
 import { motion } from "framer-motion";
 
 const HowItWorks = () => {
