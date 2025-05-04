@@ -2,7 +2,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BookOpen, Cloud, Layers3, VrHeadset } from "lucide-react";
+import { ArrowRight, BookOpen, Cloud, Layers3, Headset } from "lucide-react";
 
 const Features = () => {
   return (
@@ -116,7 +116,7 @@ const Features = () => {
             <div className="flex flex-col md:flex-row items-center gap-12 mb-24">
               <div className="md:w-1/2">
                 <div className="mb-4 p-4 bg-dreamspace-100 rounded-full inline-block">
-                  <VrHeadset size={32} className="text-dreamspace-600" />
+                  <Headset size={32} className="text-dreamspace-600" />
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
                   Virtual Reality (VR) Walkthrough
