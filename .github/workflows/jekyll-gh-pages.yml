@@ -23,7 +23,7 @@ jobs:
           node-version: 18 
 
       - name: Vite GitHub Pages Deployer
-        uses: adityajs12321/adityajs12321.github.io@v1.5.0
+        uses: skywarth/vite-github-pages-deployer@v1.5.0
         with:
           public_base_path: /adityajs12321.github.io/  # Replace with your repository name
           build_path: ./dist
