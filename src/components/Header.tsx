@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,37 +15,37 @@ const Header = () => {
     <header className="sticky top-0 w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
       <div className="container-custom flex items-center justify-between py-4">
         <div className="flex items-center">
-          <a href="/" className="text-2xl font-bold text-dreamspace-700">
+          <Link to="/" className="text-2xl font-bold text-dreamspace-700">
             <span className="text-gradient">Dream</span>Space
-          </a>
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a
-            href="#features"
+          <Link
+            to="/features"
             className="text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
           >
             Features
-          </a>
-          <a
-            href="#how-it-works"
+          </Link>
+          <Link
+            to="#how-it-works"
             className="text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
           >
             How It Works
-          </a>
-          <a
-            href="#pricing"
+          </Link>
+          <Link
+            to="#pricing"
             className="text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
           >
             Pricing
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="#contact"
             className="text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
           >
             Contact
-          </a>
+          </Link>
           <Button className="bg-dreamspace-500 hover:bg-dreamspace-600 text-white">
             Get Started
           </Button>
@@ -67,34 +68,34 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="container-custom py-4 space-y-4">
-            <a
-              href="#features"
+            <Link
+              to="/features"
               className="block text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
               onClick={toggleMenu}
             >
               Features
-            </a>
-            <a
-              href="#how-it-works"
+            </Link>
+            <Link
+              to="#how-it-works"
               className="block text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
               onClick={toggleMenu}
             >
               How It Works
-            </a>
-            <a
-              href="#pricing"
+            </Link>
+            <Link
+              to="#pricing"
               className="block text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
               onClick={toggleMenu}
             >
               Pricing
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="#contact"
               className="block text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
               onClick={toggleMenu}
             >
               Contact
-            </a>
+            </Link>
             <Button className="w-full bg-dreamspace-500 hover:bg-dreamspace-600 text-white">
               Get Started
             </Button>
