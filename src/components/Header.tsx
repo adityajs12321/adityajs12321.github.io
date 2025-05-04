@@ -29,7 +29,7 @@ const Header = () => {
             Features
           </Link>
           <Link
-            to="#how-it-works"
+            to="/how-it-works"
             className="text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
           >
             How It Works
@@ -76,7 +76,7 @@ const Header = () => {
               Features
             </Link>
             <Link
-              to="#how-it-works"
+              to="/how-it-works"
               className="block text-gray-600 hover:text-dreamspace-600 font-medium transition-colors"
               onClick={toggleMenu}
             >
